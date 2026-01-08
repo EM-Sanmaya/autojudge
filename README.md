@@ -11,6 +11,21 @@ The objective of this project is to automate the difficulty estimation process, 
 The project also includes a deployed **web-based user interface** that allows users to obtain predictions in real time.
 
 ---
+### Live Deployment
+🔗 **Web Application Link:**  
+https://autojudge-hxoigre646axmf2kpmdtbi.streamlit.app/
+
+The deployed application uses the same trained models included in this repository.
+
+---
+### Demo Video
+ 2–3 Minute Demo Video:
+https://drive.google.com/your-demo-video-link
+
+The demo video includes:
+Brief project explanation
+Overview of the model approach
+Live demonstration of the web interface with predictions
 
 ## Dataset Used
 The dataset used in this project was **provided as part of the official project problem statement**. No external data sources were collected and no manual labeling was performed.
@@ -91,25 +106,11 @@ A lightweight web application is built using **Streamlit**.
   - Predicted difficulty class
   - Predicted numerical difficulty score
 
-### Live Deployment
-🔗 **Web Application Link:**  
-https://autojudge-hxoigre646axmf2kpmdtbi.streamlit.app/
-
-The deployed application uses the same trained models included in this repository.
-
----
-### Demo Video
- 2–3 Minute Demo Video:
-https://drive.google.com/your-demo-video-link
-
-The demo video includes:
-Brief project explanation
-Overview of the model approach
-Live demonstration of the web interface with predictions
 
 ### Author Details
 Name: E.M Sanmaya
 Program: Electronics And Communication Engineering (ECE)
 Project Title: AutoJudge – Predicting Programming Problem Difficulty
+
 
 
