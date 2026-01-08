@@ -128,13 +128,38 @@ Overall, the regression component complements the hierarchical classifier by pro
   - Precision
   - Recall
   - F1-score
+## Classification Results
+
+### Stage-wise Performance
+
+- **Stage 1 (Easy vs Non-Easy) Accuracy:** **0.808**
+- **Final Hierarchical Classification Accuracy:** **0.803**
+
+
+| Class   | Precision | Recall | F1-score | Support |
+|--------|-----------|--------|----------|---------|
+| Easy   | 0.65      | 0.41   | 0.50     | 153     |
+| Medium | 0.79      | 0.89   | 0.83     | 281     |
+| Hard   | 0.85      | 0.90   | 0.87     | 389     |
+| **Overall Accuracy** | — | — | **0.80** | 823 |
+| **Macro Avg** | 0.76 | 0.73 | 0.74 | 823 |
+| **Weighted Avg** | 0.79 | 0.80 | 0.79 | 823 |
+
+---
+
+
 
 ### Regression
 - **Mean Absolute Error (MAE):** 0.795  
 - **Root Mean Squared Error (RMSE):** 1.017  
 
 All reported results correspond to the trained models included in this repository.
+---
+### Observations
 
+- The hierarchical model achieves **strong performance on Medium and Hard classes**, where semantic and algorithmic complexity is higher.
+- Lower recall for the Easy class reflects an intentional conservative bias, prioritizing precision and reducing false Easy predictions.
+- Weighted averages indicate stable overall performance despite class imbalance.
 ---
 
 ## Web Interface
@@ -154,6 +179,7 @@ A lightweight web application is built using **Streamlit**.
 Name: E.M Sanmaya
 Program: Electronics And Communication Engineering (ECE)
 Project Title: AutoJudge – Predicting Programming Problem Difficulty
+
 
 
 
