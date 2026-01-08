@@ -177,8 +177,9 @@ A lightweight web application is built using **Streamlit**.
 
 ### Author Details
 Name: E.M Sanmaya
-Program: Electronics And Communication Engineering (ECE)
-Project Title: AutoJudge – Predicting Programming Problem Difficulty
+-Program: Electronics And Communication Engineering (ECE)
+-Project Title: AutoJudge – Predicting Programming Problem Difficulty
+
 
 
 
